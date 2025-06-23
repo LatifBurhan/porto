@@ -34,7 +34,7 @@ function Home() {
 
       <section id="beranda" className="relative w-full h-screen bg-cover bg-center font-rubik bg-white dark:bg-black transition-colors duration-300" style={{ backgroundImage: `url(${Wboybg})` }}>
         <div className="bg-white bg-opacity-60 dark:bg-black dark:bg-opacity-60 absolute inset-0 flex flex-col justify-center items-center text-center px-4 transition-colors duration-300">
-          <h1 className="text-[17vh] font-bold mt-20 text-black dark:text-white transition-colors duration-300">
+          <h1 className="md:text-[17vh] text-6xl font-bold mt-20 text-black dark:text-white transition-colors duration-300">
             <span className="text-blue">Wboy</span> <span className="text-pink">Studio</span>
           </h1>
           <p className="text-[3.6vh] text-blue dark:text-white mb-6 transition-colors duration-300">Jasa Pembuatan Website dan Desain Grafis</p>
