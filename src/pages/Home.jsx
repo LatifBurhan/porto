@@ -23,6 +23,7 @@ import tailwind from "../assets/tailwind.svg";
 import vscode from "../assets/vscode.svg";
 import wa from "../assets/wa.svg";
 import wordpress from "../assets/wordpress.svg";
+import linkedin from "../assets/linkedin.svg"; // atau sesuai struktur project kamu
 
 import emailIcon from "../assets/email.svg";
 import waIcon from "../assets/wa.svg";
@@ -135,6 +136,42 @@ function Home() {
                   Download CV
                 </a>
               </div>
+              <div className="flex flex-col items-center md:items-center text-center md:text-left mt-10 ">
+                <div className="flex space-x-6 mb-4">
+                  {/* Email */}
+                  <a href="mailto:latifburhanuddin02@email.com" target="_blank" rel="noopener noreferrer">
+                    <div className="bg-pink p-3 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition transform hover:scale-110">
+                      <img src={email} alt="Email" className="w-6 h-6 filter invert dark:invert-0 transition" />
+                    </div>
+                  </a>
+
+                  {/* Instagram */}
+                  <a href="https://instagram.com/latifbrhn_" target="_blank" rel="noopener noreferrer">
+                    <div className="bg-pink p-3 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition transform hover:scale-110">
+                      <img src={ig} alt="Instagram" className="w-6 h-6 filter invert dark:invert-0 transition" />
+                    </div>
+                  </a>
+
+                  {/* WhatsApp */}
+                  <a href="https://wa.me/+6285786858184" target="_blank" rel="noopener noreferrer">
+                    <div className="bg-pink p-3 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition transform hover:scale-110">
+                      <img src={wa} alt="WhatsApp" className="w-6 h-6 filter invert dark:invert-0 transition" />
+                    </div>
+                  </a>
+
+                  {/* GitHub */}
+                  <a href="https://github.com/LatifBurhan" target="_blank" rel="noopener noreferrer">
+                    <div className="bg-pink p-3 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition transform hover:scale-110">
+                      <img src={github} alt="GitHub" className="w-6 h-6 filter invert dark:invert-0 transition" />
+                    </div>
+                  </a>
+                  <a href="https://www.linkedin.com/in/latif-burhanuddin-29002230a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
+                    <div className="bg-pink p-3 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition transform hover:scale-110">
+                      <img src={linkedin} alt="GitHub" className="w-6 h-6 filter invert dark:invert-0 transition" />
+                    </div>
+                  </a>
+                </div>
+              </div>
             </div>
 
             {/* Kolom Kanan - Formulir */}
@@ -237,6 +274,11 @@ function Home() {
               <a href="https://github.com/LatifBurhan" target="_blank" rel="noopener noreferrer">
                 <div className="bg-pink p-3 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition transform hover:scale-110">
                   <img src={github} alt="GitHub" className="w-6 h-6 filter invert dark:invert-0 transition" />
+                </div>
+              </a>
+              <a href="https://www.linkedin.com/in/latif-burhanuddin-29002230a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
+                <div className="bg-pink p-3 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition transform hover:scale-110">
+                  <img src={linkedin} alt="GitHub" className="w-6 h-6 filter invert dark:invert-0 transition" />
                 </div>
               </a>
             </div>
