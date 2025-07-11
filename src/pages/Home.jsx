@@ -215,7 +215,7 @@ function Home() {
               </a>
 
               {/* WhatsApp */}
-              <a href="https://wa.me/+6185786858184" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/+6285786858184" target="_blank" rel="noopener noreferrer">
                 <div className="bg-pink p-3 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition transform hover:scale-110">
                   <img src={wa} alt="WhatsApp" className="w-6 h-6 filter invert dark:invert-0 transition" />
                 </div>
