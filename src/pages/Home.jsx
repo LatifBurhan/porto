@@ -123,6 +123,18 @@ function Home() {
                 <img src={waIcon} alt="WhatsApp" className="w-8 h-8 mr-4" />
                 <span className="text-lg text-gray-700 dark:text-gray-300 transition-colors duration-300">+62 857 8685 8184</span>
               </div>
+              <div className="mt-10 flex items-center justify-center">
+                <a
+                  href="/CV-LATIF_BURHANUDIN.pdf"
+                  download
+                  className="inline-flex items-center gap-3 bg-pink hover:bg-blue text-white font-semibold py-3 px-8 rounded-2xl shadow-lg transition-transform duration-300 transform hover:scale-105 animate-pulse"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v1a2 2 0 002 2h12a2 2 0 002-2v-1M12 12v6m0 0l-3-3m3 3l3-3m0-9h-6" />
+                  </svg>
+                  Download CV
+                </a>
+              </div>
             </div>
 
             {/* Kolom Kanan - Formulir */}

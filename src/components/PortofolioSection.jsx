@@ -10,7 +10,7 @@ export default function PortofolioSection() {
         {/* Judul */}
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-blue dark:text-white mb-4 transition-colors duration-300">PORTOFOLIO</h2>
-          <p className="text-gray-600 dark:text-gray-300 transition-colors duration-300">Beberapa proyek dan desain yang sudah saya kerjakan</p>
+          <p className="text-gray-600 dark:text-gray-300 transition-colors duration-300">Beberapa project website dan desain yang sudah saya kerjakan</p>
         </div>
 
         {/* Grid Portofolio */}
