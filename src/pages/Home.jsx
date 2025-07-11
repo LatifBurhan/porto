@@ -117,11 +117,11 @@ function Home() {
               {/* Info Kontak */}
               <div className="flex items-center mb-4">
                 <img src={emailIcon} alt="Email" className="w-8 h-8 mr-4" />
-                <span className="text-lg text-gray-700 dark:text-gray-300 transition-colors duration-300">latifburhanudin@gmail.com</span>
+                <span className="text-lg text-gray-700 dark:text-gray-300 transition-colors duration-300">latifburhanuddin02@gmail.com</span>
               </div>
               <div className="flex items-center">
                 <img src={waIcon} alt="WhatsApp" className="w-8 h-8 mr-4" />
-                <span className="text-lg text-gray-700 dark:text-gray-300 transition-colors duration-300">+62 812 3456 7890</span>
+                <span className="text-lg text-gray-700 dark:text-gray-300 transition-colors duration-300">+62 857 8685 8184</span>
               </div>
             </div>
 
