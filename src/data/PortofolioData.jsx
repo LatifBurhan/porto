@@ -1,6 +1,7 @@
+import { link } from "framer-motion/client";
 import porto_1 from "../assets/portofolio/1.jpeg";
-import porto_2 from "../assets/portofolio/2.jpeg";
-import porto_3 from "../assets/portofolio/3.jpeg";
+import porto_2 from "../assets/portofolio/icemagicwater.png";
+import porto_3 from "../assets/portofolio/gerobaklistrik.png";
 import porto_4 from "../assets/portofolio/seltrik1.png";
 
 const portofolioData = [
@@ -13,51 +14,17 @@ const portofolioData = [
   },
   {
     id: 2,
-    title: "Website Project 2",
+    title: "Ice Magic Water",
+    link: "https://icemagicwater.com/",
     image: porto_2,
-    description: "Ini adalah detail dari Website Project 2.",
+    description: "landing Page Ice Magic Water",
   },
   {
     id: 3,
-    title: "Poster Desain 1",
+    title: "Gestrik",
+    link: "https://https://gerobaklistrik.com//",
     image: porto_3,
-    description: "Ini adalah detail dari Poster Desain 1.",
-  },
-  {
-    id: 1,
-    title: "Website Project 1",
-    image: porto_1,
-    description: "Ini adalah detail dari Website Project 1.",
-  },
-  {
-    id: 2,
-    title: "Website Project 2",
-    image: porto_2,
-    description: "Ini adalah detail dari Website Project 2.",
-  },
-  {
-    id: 3,
-    title: "Poster Desain 1",
-    image: porto_3,
-    description: "Ini adalah detail dari Poster Desain 1.",
-  },
-  {
-    id: 1,
-    title: "Website Project 1",
-    image: porto_1,
-    description: "Ini adalah detail dari Website Project 1.",
-  },
-  {
-    id: 2,
-    title: "Website Project 2",
-    image: porto_2,
-    description: "Ini adalah detail dari Website Project 2.",
-  },
-  {
-    id: 3,
-    title: "Poster Desain 1",
-    image: porto_3,
-    description: "Ini adalah detail dari Poster Desain 1.",
+    description: "Gestrik atau bisa di sebut Gerobak Listrik",
   },
 ];
 

@@ -201,28 +201,28 @@ function Home() {
             <h4 className="text-xl font-semibold mb-4">Ikuti Saya</h4>
             <div className="flex space-x-6 mb-4">
               {/* Email */}
-              <a href="mailto:latif@email.com" target="_blank" rel="noopener noreferrer">
+              <a href="mailto:latifburhanuddin02@email.com" target="_blank" rel="noopener noreferrer">
                 <div className="bg-pink p-3 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition transform hover:scale-110">
                   <img src={email} alt="Email" className="w-6 h-6 filter invert dark:invert-0 transition" />
                 </div>
               </a>
 
               {/* Instagram */}
-              <a href="https://instagram.com/akunigkamu" target="_blank" rel="noopener noreferrer">
+              <a href="https://instagram.com/latifbrhn_" target="_blank" rel="noopener noreferrer">
                 <div className="bg-pink p-3 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition transform hover:scale-110">
                   <img src={ig} alt="Instagram" className="w-6 h-6 filter invert dark:invert-0 transition" />
                 </div>
               </a>
 
               {/* WhatsApp */}
-              <a href="https://wa.me/nomorwa" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/+6185786858184" target="_blank" rel="noopener noreferrer">
                 <div className="bg-pink p-3 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition transform hover:scale-110">
                   <img src={wa} alt="WhatsApp" className="w-6 h-6 filter invert dark:invert-0 transition" />
                 </div>
               </a>
 
               {/* GitHub */}
-              <a href="https://github.com/usernamekamu" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/LatifBurhan" target="_blank" rel="noopener noreferrer">
                 <div className="bg-pink p-3 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition transform hover:scale-110">
                   <img src={github} alt="GitHub" className="w-6 h-6 filter invert dark:invert-0 transition" />
                 </div>
